@@ -1,9 +1,7 @@
 ## Hi there 👋
 
-- C
-- C++
+- C/C++
 - Go
 - Java
-- JavaScript
-- TypeScript
+- JS/TS
 - Python

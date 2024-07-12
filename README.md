@@ -4,4 +4,4 @@
 - Go
 - Java
 - JS/TS
-- Python
+- Shell/Python

@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there!
 
 - C/C++
 - Go
@@ -6,7 +6,7 @@
 - JS/TS
 - Shell/Python
 
-This TamperMonkey JS script may help you beautify your github (by customizing fonts)
+This TamperMonkey JS script may help you beautify your GitHub (by customizing fonts)
 
 ```js
 // ==UserScript==

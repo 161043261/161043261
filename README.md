@@ -6,7 +6,7 @@
 - JS/TS
 - Shell/Python
 
-This script may help you beautify your github (by customizing the font)
+This TamperMonkey JS script may help you beautify your github (by customizing fonts)
 
 ```js
 // ==UserScript==
@@ -21,12 +21,12 @@ This script may help you beautify your github (by customizing the font)
 // ==/UserScript==
 
 (function () {
-    const fontFamily = 'Iosevka SS04, Sarasa Mono SC' // Your custom font
+    const fontFamily = 'Iosevka SS04, Sarasa Mono SC' // Your custom fonts
     const style = document.createElement("style");
     style.rel = "stylesheet";
     // style.type = "text/css";
     style.innerHTML = "code, pre, .blob-code, .blob-code-content, .blob-code-marker, .blob-num"
-        + ", *" // Comment this line if you only want to customize the monospaced font
+        + ", *" // Comment this line if you only want to customize monospaced fonts
         + `{ font-family: ${fontFamily}, monospace !important; }`;
     // document.getElementsByTagName('head')[0].appendChild(style);
     document.querySelector('head').appendChild(style);

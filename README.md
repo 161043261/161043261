@@ -16,7 +16,7 @@ This TamperMonkey JS script may help you beautify your github (by customizing fo
 // @description  custom fonts
 // @author       Tiancheng
 // @match        https://github.com/*
-// @match        https://zhuanlan.zhihu.com/*
+// @match        https://other.websites
 // @grant        none
 // ==/UserScript==
 

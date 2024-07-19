@@ -3,7 +3,7 @@
 - C/C++
 - Go
 - Java
-- JS/TS
+- JS/~~TS~~
 - Python/Shell
 
 This [TamperMonkey](https://www.tampermonkey.net/) script may help you beautify your GitHub (by customizing fonts)

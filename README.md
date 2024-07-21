@@ -1,14 +1,6 @@
 ## Hi there!
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=161043261&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-- C/C++
-- Go
-- Java
-- JavaScript/TypeScript
-- Python/Shell
 
 This [TamperMonkey](https://www.tampermonkey.net/) script may help you beautify your GitHub (by customizing fonts)
 

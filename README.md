@@ -1,6 +1,6 @@
 ## Hi there!
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=161043261)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=161043261&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
 - C/C++
 - Go

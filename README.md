@@ -1,4 +1,4 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 This [TamperMonkey](https://www.tampermonkey.net/) script may help you beautify your GitHub (by customizing fonts)
 

@@ -1,8 +1,8 @@
 <a href="https://161043261.github.io">Tiancheng</a>
 
-TS, Go, Java, C++, PY
+TS, Go, Java, C++
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=jetbrains)](https://github.com/anuraghazra/github-readme-stats)
 
 ```shell
 git add .

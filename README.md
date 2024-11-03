@@ -3,4 +3,4 @@
 
 C++, Go, Java, TS
 
-[![Tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=jetbrains)](https://github.com/anuraghazra/github-readme-stats)
+[![Tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_lang=java&exclude_repo=jetbrains)](https://github.com/anuraghazra/github-readme-stats)

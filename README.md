@@ -1,7 +1,7 @@
-<a href="https://161043261.github.io">Homepage</a>
+<a href="https://161043261.github.io">homepage</a>
 
 - Java
-- JavaScript/TypeScript
+- JS/TS
 - Golang
 - C/C++
 

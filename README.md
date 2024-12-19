@@ -1,6 +1,6 @@
 <a href="https://161043261.github.io">homepage</a>
 
-Currently focus on [here](https://github.com/161043261/type/tree/main/ts-awesome/mar7th-suki)
+Current focus on [Mar7thLab](https://github.com/161043261/type/tree/main/ts-awesome/Mar7thLab)
 
 - Java
 - JS/TS

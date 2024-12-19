@@ -1,6 +1,6 @@
 <a href="https://161043261.github.io">homepage</a>
 
-Currently focus on [here](https://github.com/161043261/type/tree/main/ts-awesome/electron-app)
+Currently focus on [here](https://github.com/161043261/type/tree/main/ts-awesome/mar7th-suki)
 
 - Java
 - JS/TS

@@ -3,8 +3,6 @@
 > [!TIP]
 > <a href="https://161043261.github.io">Homepage</a>
 
-![hoyocard](https://hoyocard.qhy04.com/sr/2/392241539.png)
-
 - JS/TS
 - Golang
 - C/C++

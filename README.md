@@ -3,10 +3,7 @@
 > [!TIP]
 > <a href="https://161043261.github.io">Homepage</a>
 
-- JS/TS
-- Golang
-- C/C++
-- Java
+<img src="https://count.getloli.com/get/@161043261?theme=rule34" alt="161043261"/>
 
 [![Tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=161043261.github.io)](https://github.com/anuraghazra/github-readme-stats)
 

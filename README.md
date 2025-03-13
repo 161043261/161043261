@@ -1,7 +1,7 @@
 > [!tip]
 > <a href="https://161043261.github.io">Homepage</a>
 
-<img src="https://count.getloli.com/get/@tiancheng?theme=miku" alt="tiancheng"/>
+<img src="https://count.getloli.com/get/@tiancheng?theme=miku" alt="tiancheng" width="50%"/>
 
 [![tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=161043261.github.io)](https://github.com/anuraghazra/github-readme-stats)
 

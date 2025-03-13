@@ -1,12 +1,9 @@
-> [!TIP] > <a href="https://161043261.github.io">Homepage</a>
+> [!tip]
+> <a href="https://161043261.github.io">Homepage</a>
 
 <img src="https://count.getloli.com/get/@tiancheng?theme=miku" alt="tiancheng"/>
 
 [![tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=161043261.github.io)](https://github.com/anuraghazra/github-readme-stats)
-
-<div style="font-family: 'Yuanti SC', 'YouYuan';">
-信心花舍, 特殊为你开铺
-</div>
 
 ```js
 // ==UserScript==
@@ -27,7 +24,7 @@
   const style = document.createElement("style");
   style.textContent = `
     * {
-      font-family: 'Iosevka', 'Menlo', 'Cascadia Code', 'YouYuan', 'PingFang SC', 'Microsoft YaHei' !important;
+      font-family: 'Iosevka', 'Geist Mono', 'Menlo', 'Cascadia Code', 'YouYuan', 'Yuanti SC' !important;
     }`;
   head.appendChild(style);
 })();

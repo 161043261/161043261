@@ -3,6 +3,8 @@
 
 <img src="https://count.getloli.com/get/@tiancheng?theme=miku" alt="tiancheng" width="50%"/>
 
+请看我的简历 [resume](https://htmlpreview.github.io/?https://github.com/161043261/161043261/blob/main/index.html)
+
 [![tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&exclude_repo=161043261.github.io)](https://github.com/anuraghazra/github-readme-stats)
 
 ```js

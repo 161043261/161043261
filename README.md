@@ -3,8 +3,6 @@
 
 <h1>我的<a href="https://161043261.github.io/dev/" target="_blank" rel="noopener">简历</a></h1>
 
-[![tiancheng](https://github-readme-stats.vercel.app/api/top-langs/?username=161043261&layout=pie&hide=html)](https://github.com/anuraghazra/github-readme-stats)
-
 ```js
 // ==UserScript==
 // @name         beautify-github-pages

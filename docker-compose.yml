@@ -1,0 +1,53 @@
+# docker-compose up -d # daemon
+services:
+  # docker-compose up -d redis
+  redis:
+    image: redis:latest
+    container_name: redis
+    hostname: redis
+    ports:
+      - "6379:6379"
+    restart: always
+  # docker-compose down redis -v
+
+  # docker-compose up -d mysql
+  mysql:
+    image: mysql:8.4
+    command: --mysql-native-password=ON
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - "3306:3306"
+    privileged: true
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pass # 如果是数字, 则必须加 ""
+      MYSQL_NATIVE_PASSWORD: ON
+      TZ: Asia/Shanghai
+  # docker-compose down mysql -v
+
+  # docker-compose up -d mongo
+  mongo:
+    image: mongo
+    container_name: mongo
+    hostname: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pass
+  # docker-compose down mongo -v
+
+  # docker-compose up -d nginx
+  nginx:
+    image: nginx
+    container_name: nginx
+    hostname: nginx
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_PORT=80
+  # docker-compose down nginx -v
+# docker-compose down -v # volume

@@ -53,31 +53,19 @@ services:
 
   clickhouse:
     image: clickhouse/clickhouse-server:24-alpine
+    container_name: clickhouse
+    hostname: clickhouse
+    restart: on-failure
     ports:
-      - 8123:8123 # http api
-      - 9000:9000 # native (tcp api)
-    network_mode: host
-    ulimits:
-      nofile:
-        soft: 262144
-        hard: 262144
+      - 8123:8123
+      - 9000:9000
     environment:
-      # default settings
       CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
       CLICKHOUSE_USER: root
       CLICKHOUSE_PASSWORD: pass
       CLICKHOUSE_DB: db0
       CLICKHOUSE_SKIP_USER_SETUP: 1
-    volumes:
-      - ./docker/clickhouse/local/config.xml:/etc/clickhouse-server/config.xml
-      - ./docker/clickhouse/local/users.xml:/etc/clickhouse-server/users.xml
-      - .volumes/ch_data_dev:/var/lib/clickhouse
-      - .volumes/ch_logs_dev:/var/log/clickhouse-server
-    restart: on-failure
-    networks:
-      - internal
     healthcheck:
-      # "clickhouse", "client", "-u ${CLICKHOUSE_USER}", "--password ${CLICKHOUSE_PASSWORD}", "-q 'SELECT 1'"
       test:
         wget -O /dev/null --no-verbose --tries=1 http://127.0.0.1:8123/ping ||
         exit 1

@@ -52,7 +52,7 @@ services:
   # docker-compose down nginx -v
 
   clickhouse:
-    image: clickhouse/clickhouse-server:24-alpine
+    image: clickhouse/clickhouse-server:21-alpine
     container_name: clickhouse
     hostname: clickhouse
     restart: on-failure

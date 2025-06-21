@@ -12,3 +12,4 @@
 **/.zip
 **/__cache__/
 
+.volumes/

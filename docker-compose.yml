@@ -64,12 +64,12 @@ services:
       CLICKHOUSE_USER: root
       CLICKHOUSE_PASSWORD: pass
       CLICKHOUSE_DB: db0
-      CLICKHOUSE_SKIP_USER_SETUP: 1
-    healthcheck:
-      test:
-        wget -O /dev/null --no-verbose --tries=1 http://127.0.0.1:8123/ping ||
-        exit 1
-      interval: 1s
-      timeout: 1s
-      retries: 60
+      CLICKHOUSE_RUN_AS_ROOT: 1
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    volumes:
+      - .volumes/clickhouse/lib/clickhouse:/var/lib/clickhouse
+      - .volumes/clickhouse/log/clickhouse-server:/var/log/clickhouse-server
 # docker-compose down -v # volume

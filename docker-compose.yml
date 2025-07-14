@@ -1,0 +1,96 @@
+# docker-compose up -d # daemon
+services:
+  # docker-compose up -d redis
+  redis:
+    # image, container_name, hostname, ports, privileged, restart
+    # environment, volumes
+    image: redis:latest
+    container_name: redis
+    hostname: redis
+    ports:
+      - 6379:6379
+    privileged: true
+    restart: on-failure
+  # docker-compose down redis -v
+
+  # docker-compose up -d mysql
+  mysql:
+    # image, container_name, hostname, ports, privileged, restart
+    # environment, volumes
+    image: mysql:8.4
+    command: --mysql-native-password=ON
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - 3306:3306
+    privileged: true
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: pass # 如果是数字, 则必须加 ""
+      MYSQL_NATIVE_PASSWORD: ON
+      TZ: Asia/Shanghai
+    volumes:
+      - .volumes/etc/mysql/conf.d:/etc/mysql/conf.d
+      - .volumes/var/lib/mysql:/var/lib/mysql
+  # docker-compose down mysql -v
+
+  # docker-compose up -d mongo
+  mongo:
+    # image, container_name, hostname, ports, privileged, restart
+    # environment, volumes
+    image: mongo
+    container_name: mongo
+    hostname: mongo
+    ports:
+      - 27017:27017
+    privileged: true
+    restart: on-failure
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pass
+  # docker-compose down mongo -v
+
+  # docker-compose up -d nginx
+  nginx:
+    # image, container_name, hostname, ports, privileged, restart
+    # environment, volumes
+    image: nginx
+    container_name: nginx
+    hostname: nginx
+    ports:
+      - 8080:8080
+    privileged: true
+    restart: on-failure
+    environment:
+      - NGINX_PORT=80
+    volumes:
+      - .volumes/etc/nginx/conf.d:/etc/nginx/conf.d
+      - .volumes/etc/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - .volumes/usr/share/nginx/html:/usr/share/nginx/html
+  # docker-compose down nginx -v
+
+  clickhouse:
+    # image, container_name, hostname, ports, privileged, restart
+    # environment, volumes
+    image: clickhouse/clickhouse-server:24-alpine
+    container_name: clickhouse
+    hostname: clickhouse
+    privileged: true
+    ports:
+      - 8123:8123
+      - 9000:9000
+    restart: on-failure
+    environment:
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+      CLICKHOUSE_USER: root
+      CLICKHOUSE_PASSWORD: pass
+      CLICKHOUSE_DB: db0
+      CLICKHOUSE_RUN_AS_ROOT: 1
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    volumes:
+      - .volumes/var/lib/clickhouse:/var/lib/clickhouse
+      - .volumes/var/log/clickhouse-server:/var/log/clickhouse-server
+# docker-compose down -v # volume

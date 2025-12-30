@@ -1,9 +1,11 @@
+# https://github.com/conduktor/kafka-stack-docker-compose
+# curl -fsSL https://elastic.co/start-local | sh
+
 # docker-compose up -d # daemon
 services:
   # docker-compose up -d mysql
   mysql:
     image: mysql:latest
-    # command: --mysql-native-password=ON
     container_name: mysql
     hostname: mysql
     ports:
@@ -16,8 +18,10 @@ services:
       MYSQL_DATABASE: db0
       MYSQL_USER: user
       MYSQL_PASSWORD: pass
-      MYSQL_RANDOM_ROOT_PASSWORD: yes
+      MYSQL_ROOT_PASSWORD: pass
       TZ: Asia/Shanghai
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
   # docker-compose down mysql -v
 
   # docker-compose up -d redis
@@ -56,9 +60,5 @@ services:
     restart: on-failure
     environment:
       NGINX_PORT: 80
-    # volumes:
-    #   - .volumes/etc/nginx/conf.d:/etc/nginx/conf.d
-    #   - .volumes/etc/nginx/nginx.conf:/etc/nginx/nginx.conf
-    #   - .volumes/usr/share/nginx/html:/usr/share/nginx/html
   # docker-compose down nginx -v
 # docker-compose down -v # volume

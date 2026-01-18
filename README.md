@@ -1,5 +1,7 @@
 # Tiancheng Hang
 
-[Homepage](https://161043261.github.io/homepage/)
+- [Homepage](https://161043261.github.io/homepage/)
 
-TECH OTAKUS SAVE THE WORLD
+- [Resume](https://161043261.github.io/resume/)
+
+- [React State](https://161043261.github.io/react-state/)

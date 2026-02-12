@@ -1,5 +1,10 @@
 # Tiancheng Hang
 
+<!-- ![](https://raw.githubusercontent.com/161043261/github-stats/master/generated/overview.svg#gh-dark-mode-only) -->
+![](https://raw.githubusercontent.com/161043261/github-stats/master/generated/overview.svg#gh-light-mode-only)
+<!-- ![](https://raw.githubusercontent.com/161043261/github-stats/master/generated/languages.svg#gh-dark-mode-only) -->
+![](https://raw.githubusercontent.com/161043261/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
 - [Homepage](https://161043261.github.io/homepage/)
 
 - [Resume](https://161043261.github.io/resume/)

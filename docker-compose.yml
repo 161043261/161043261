@@ -1,0 +1,93 @@
+# docker-compose up -d # daemon
+services:
+  # docker-compose up -d mysql
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - "3306:3306"
+    privileged: true
+    restart: on-failure
+    environment:
+      # MYSQL_NATIVE_PASSWORD: ON
+      # MYSQL_ROOT_PASSWORD: pass
+      MYSQL_DATABASE: db0
+      MYSQL_USER: user
+      MYSQL_PASSWORD: pass
+      MYSQL_ROOT_PASSWORD: pass
+      TZ: Asia/Shanghai
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+  # docker-compose down mysql -v
+
+  # docker-compose up -d redis
+  redis:
+    image: redis:latest
+    container_name: redis
+    hostname: redis
+    ports:
+      - "6379:6379"
+    privileged: true
+    restart: on-failure
+  # docker-compose down redis -v
+
+  # docker-compose up -d mongo
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    hostname: mongo
+    ports:
+      - "27017:27017"
+    privileged: true
+    restart: on-failure
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: pass
+  # docker-compose down mongo -v
+
+  # docker-compose up -d nginx
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    hostname: nginx
+    ports:
+      - "8080:8080"
+    privileged: true
+    restart: on-failure
+    environment:
+      NGINX_PORT: 80
+  # docker-compose down nginx -v
+
+  # docker-compose up -d postgres
+  # psql -U root -W
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    privileged: true
+    restart: on-failure
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pass
+  # docker-compose down postgres -v
+
+  # docker-compose up -d ubuntu-22.04
+  ubuntu-22.04:
+    image: ubuntu:22.04
+    container_name: ubuntu-22.04
+    hostname: ubuntu-22.04
+    privileged: true
+    restart: on-failure
+    stdin_open: true
+    tty: true
+    volumes:
+      - $HOME/ns3.40:/root/ns3.40
+  # docker-compose down ubuntu-22.04 -v
+
+  # docker exec -it ubuntu-22.04 /usr/bin/zsh
+  # conda config --add channels conda-forge (aarch64)
+
+# docker-compose down -v # volume

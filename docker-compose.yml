@@ -91,6 +91,20 @@ services:
   # docker exec -it ubuntu-22.04 /usr/bin/zsh
   # conda config --add channels conda-forge (aarch64)
 
+  # docker-compose up -d ubuntu-24.04
+  ubuntu-24.04:
+    image: ubuntu:24.04
+    container_name: ubuntu-24.04
+    hostname: ubuntu-24.04
+    privileged: true
+    restart: on-failure
+    stdin_open: true
+    tty: true
+  # docker-compose down ubuntu-24.04 -v
+
+  # docker exec -it ubuntu-24.04 /usr/bin/zsh
+  # conda config --add channels conda-forge (aarch64)
+
   # docker-compose up -d minio
   minio:
     image: minio/minio:latest

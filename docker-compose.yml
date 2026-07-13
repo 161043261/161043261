@@ -121,6 +121,8 @@ services:
     environment:
       MINIO_ROOT_USER: admin
       MINIO_ROOT_PASSWORD: 12345678
+      MINIO_ACCESS_KEY: access_key
+      MINIO_SECRET_KEY: secret_key
       MINIO_DEFAULT_BUCKET: s3
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/ready"]
@@ -147,7 +149,6 @@ services:
       exit 0;
       "
   # docker compose down mc -v
-
   # docker compose up -d kafka
   kafka:
     image: apache/kafka:latest
@@ -170,5 +171,32 @@ services:
     volumes:
       - ./volumes/kafka/data:/var/lib/kafka/data
   # docker compose down kafka -v
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    hostname: prometheus
+    ports:
+      - "9090:9090"
+    privileged: true
+    restart: unless-stopped
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    hostname: grafana
+    ports:
+      - "3000:3000"
+    privileged: true
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_USER=root
+      - GF_SECURITY_ADMIN_PASSWORD=pass
+    depends_on:
+      - prometheus
 
 # docker compose down -v # volume

@@ -7,7 +7,6 @@
 - [@swifty.js/swifty-code](https://www.npmjs.com/package/@swifty.js/swifty-code) SwiftyCode@canary - Dual-process CLI coding agent
 - [@swifty.js/sentry](https://www.npmjs.com/package/@swifty.js/sentry) Sentry SDK
 - [@swifty.js/cache](https://www.npmjs.com/package/@swifty.js/cache) Memory cache aligned with swifty-go/swifty_cache
-- [swifty-starrail](https://github.com/hangtiancheng/swifty-starrail/releases/tag/v0.0.1) Star Rail toolbox
 
 ## Go
 

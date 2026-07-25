@@ -6,7 +6,7 @@
 - [@swifty.js/swifty](https://www.npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
 - [@swifty.js/larky](https://www.npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
 - [@swifty.js/swiftx](https://www.npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
-- [@swifty.js/sentry](https://www.npmjs.com/package/@swifty.js/sentry) Sentry SDK
+- [@swifty.js/sentry](https://www.npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and preact
 - [@swifty.js/cache](https://www.npmjs.com/package/@swifty.js/cache) Memory cache aligned with swifty-go/swifty_cache
 
 ## Go

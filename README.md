@@ -3,6 +3,7 @@
 
 ## JS/TS
 
+- [@swifty.js/docs](https://www.npmjs.com/package/@swifty.js/docs) A beautiful static site generator powered by Preact
 - [@swifty.js/swifty](https://www.npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
 - [@swifty.js/larky](https://www.npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
 - [@swifty.js/swiftx](https://www.npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent

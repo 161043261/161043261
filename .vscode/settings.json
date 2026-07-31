@@ -3,6 +3,6 @@
     "healthcheck",
     "initdb",
     "swifty",
-    "starrail"
+    "larky"
   ]
 }

@@ -1,5 +1,8 @@
-- [homepage](https://hangtiancheng.github.io/h/)
-- [resume](https://hangtiancheng.github.io/r/)
+- [Homepage powered by Vitepress](https://hangtiancheng.github.io/h/)
+- [Homepage powered by Rspress](https://hangtiancheng.github.io/h/rspress)
+- [Homepage powered by @swifty.js/docs](https://hangtiancheng.github.io/h/swifty-docs)
+- [Homepage powered by @lark.js/docs](https://hangtiancheng.github.io/h/lark-docs)
+- [Resume powered by React/Preact](https://hangtiancheng.github.io/r/)
 
 ## Skill
 

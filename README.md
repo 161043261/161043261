@@ -1,6 +1,14 @@
 - [homepage](https://hangtiancheng.github.io/h/)
 - [resume](https://hangtiancheng.github.io/r/)
 
+## Skill
+
+```bash
+npx skills add tianchenghang/lark.js
+npx skills add hangtiancheng/swifty.js
+npx skills add hangtiancheng/swifty.go
+```
+
 ## JS/TS
 
 - [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by Preact

@@ -3,12 +3,14 @@
 
 ## JS/TS
 
-- [@swifty.js/docs](https://www.npmjs.com/package/@swifty.js/docs) A beautiful static site generator powered by Preact
-- [@swifty.js/swifty](https://www.npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
-- [@swifty.js/larky](https://www.npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
-- [@swifty.js/swiftx](https://www.npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
-- [@swifty.js/sentry](https://www.npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and preact
-- [@swifty.js/cache](https://www.npmjs.com/package/@swifty.js/cache) Distributed memory cache aligned with swifty.go/swifty_cache
+- [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by Preact
+- [@swifty.js/swifty](https://npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
+- [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
+- [@swifty.js/swiftx](https://npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
+- [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and preact
+- [@swifty.js/cache](https://npmjs.com/package/@swifty.js/cache) Distributed memory cache aligned with swifty.go/swifty_cache
+- [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) An AI unfriendly frontend framework
+- [@lark.js/docs](https://npmjs.com/package/@lark.js/docs) A beautiful docs site generator powered by @lark.js/mvc
 
 ## Go
 

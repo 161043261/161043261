@@ -24,6 +24,15 @@ npx skills add hangtiancheng/swifty.go
 - [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
 - [@swifty.js/swiftx](https://npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
 
+```bash
+# Install swifty
+curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/install.sh | bash
+# Install larky
+curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/larky.sh | bash
+# Install swiftx
+curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/swiftx.sh | bash
+```
+
 ### Lark.js
 
 - [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) An AI unfriendly frontend framework

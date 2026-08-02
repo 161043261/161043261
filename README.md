@@ -26,11 +26,11 @@ npx skills add hangtiancheng/swifty.go
 
 ```bash
 # Install swifty
-curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/install.sh | bash
-# Install larky
-curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/larky.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/swifty.sh | bash
 # Install swiftx
 curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/swiftx.sh | bash
+# Install larky
+curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/install.sh | bash
 ```
 
 ### Lark.js

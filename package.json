@@ -2,7 +2,6 @@
   "scripts": {
     "git:add": "git add -A",
     "git:commit": "git commit -m 'feat: Introduce new features'",
-    "git:push": "pnpm git:add && pnpm git:commit && git push origin main",
-    "git:push:f": "pnpm git:add && pnpm git:commit && git push origin main -f"
+    "git:push": "pnpm git:add && pnpm git:commit && git push origin main"
   }
 }

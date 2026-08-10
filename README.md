@@ -2,7 +2,7 @@
 - [Homepage powered by Rspress](https://hangtiancheng.github.io/h/rspress)
 - [Homepage powered by @swifty.js/docs](https://hangtiancheng.github.io/h/swifty-docs)
 - [Homepage powered by @lark.js/docs](https://hangtiancheng.github.io/h/lark-docs)
-- [Resume powered by React/Lit/Preact](https://hangtiancheng.github.io/r/)
+- [Resume powered by React/Lit](https://hangtiancheng.github.io/r/)
 
 ## Skill
 
@@ -17,9 +17,9 @@ npx skills add hangtiancheng/swifty.go
 
 ### Swifty.js
 
-- [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by Preact
+- [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by react
 - [@swifty.js/cache](https://npmjs.com/package/@swifty.js/cache) Distributed memory cache aligned with swifty.go/swifty_cache
-- [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and preact
+- [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and react
 - [@swifty.js/swifty](https://npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
 - [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
 - [@swifty.js/swiftx](https://npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent

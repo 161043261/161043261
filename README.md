@@ -2,7 +2,7 @@
 - [Homepage powered by Rspress](https://hangtiancheng.github.io/h/rspress)
 - [Homepage powered by @swifty.js/docs](https://hangtiancheng.github.io/h/swifty-docs)
 - [Homepage powered by @lark.js/docs](https://hangtiancheng.github.io/h/lark-docs)
-- [Resume powered by React/Lit](https://hangtiancheng.github.io/r/)
+- [Resume powered by @lark.js/mvc, only uses TailwindCSS as the third-party dependency.](https://hangtiancheng.github.io/r/)
 
 ## Skill
 
@@ -19,10 +19,10 @@ npx skills add hangtiancheng/swifty.go
 
 - [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by react
 - [@swifty.js/cache](https://npmjs.com/package/@swifty.js/cache) Distributed memory cache aligned with swifty.go/swifty_cache
-- [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react, vue3+, and react
+- [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react and vue3
 - [@swifty.js/swifty](https://npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
-- [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Dual-process CLI coding agent
 - [@swifty.js/swiftx](https://npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
+- [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Swifty and Swiftx all in one
 
 ```bash
 # Install swifty
@@ -33,14 +33,14 @@ curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/swift
 curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/install.sh | bash
 ```
 
-### Lark.js
-
-- [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) An AI unfriendly frontend framework
-- [@lark.js/docs](https://npmjs.com/package/@lark.js/docs) A beautiful docs site generator powered by @lark.js/mvc
-
 ## Go
 
 - [swifty_cache](https://pkg.go.dev/github.com/hangtiancheng/swifty.go/swifty_cache) Memory cache
 - [swifty_orm](https://pkg.go.dev/github.com/hangtiancheng/swifty.go/swifty_orm) ORM framework inspired by Knex.js
 - [swifty_http](https://pkg.go.dev/github.com/hangtiancheng/swifty.go/swifty_http) HTTP framework inspired by Koa.js
 - [swifty_rpc](https://pkg.go.dev/github.com/hangtiancheng/swifty.go/swifty_rpc) RPC framework inspired by grpc-go
+
+### Lark.js (@deprecated)
+
+- [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) An AI UNfriendly frontend framework
+- [@lark.js/docs](https://npmjs.com/package/@lark.js/docs) A beautiful docs site generator powered by @lark.js/mvc

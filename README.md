@@ -2,7 +2,7 @@
 - [Homepage powered by Rspress](https://hangtiancheng.github.io/h/rspress)
 - [Homepage powered by @swifty.js/docs](https://hangtiancheng.github.io/h/swifty-docs)
 - [Homepage powered by @lark.js/docs](https://hangtiancheng.github.io/h/lark-docs)
-- [Resume powered by @lark.js/mvc, only uses TailwindCSS as the third-party dependency.](https://hangtiancheng.github.io/r/)
+- [Resume powered by lit + @lark.js/mvc + @lark.js/sentry (based on @swifty.js/sentry)](https://hangtiancheng.github.io/r/)
 
 ## Skill
 

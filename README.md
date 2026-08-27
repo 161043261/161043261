@@ -17,12 +17,10 @@ npx skills add hangtiancheng/swifty.go
 
 ### Swifty.js
 
-- [@swifty.js/docs](https://npmjs.com/package/@swifty.js/docs) A beautiful docs site generator powered by react
 - [@swifty.js/cache](https://npmjs.com/package/@swifty.js/cache) Distributed memory cache aligned with swifty.go/swifty_cache
 - [@swifty.js/sentry](https://npmjs.com/package/@swifty.js/sentry) Framework-agnostic sentry sdk with first-class support for react and vue3
 - [@swifty.js/swifty](https://npmjs.com/package/@swifty.js/swifty) Swifty — CLI coding agent
 - [@swifty.js/swiftx](https://npmjs.com/package/@swifty.js/swiftx) Swiftx - Native CLI coding agent
-- [@swifty.js/larky](https://npmjs.com/package/@swifty.js/larky) Larky - Swifty and Swiftx all in one
 
 ```bash
 # Install swifty
@@ -42,5 +40,4 @@ curl -fsSL https://raw.githubusercontent.com/hangtiancheng/swifty-cli/main/insta
 
 ### Lark.js (@deprecated)
 
-- [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) An AI UNfriendly frontend framework
-- [@lark.js/docs](https://npmjs.com/package/@lark.js/docs) A beautiful docs site generator powered by @lark.js/mvc
+- [@lark.js/mvc](https://npmjs.com/package/@lark.js/mvc) A JSX frontend framework powered by signal

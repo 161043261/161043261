@@ -8,7 +8,11 @@ npx skills add tianchenghang/lark.js
 npx skills add hangtiancheng/swifty.js
 npx skills add hangtiancheng/swifty-sentry # @swifty.js/sentry
 npx skills add hangtiancheng/swifty.go
+```
 
+### AGENTS.md
+
+``` md
 <!-- intent-skills:start -->
 
 # Swifty&Larky Intent - before editing files, run the matching guidance command.

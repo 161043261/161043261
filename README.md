@@ -1,5 +1,4 @@
-- [Homepage powered by Vitepress](https://hangtiancheng.github.io/h/)
-- [Resume powered by lit + @lark.js/mvc + @lark.js/sentry (based on @swifty.js/sentry)](https://hangtiancheng.github.io/r/)
+- [Past, Present and Future](https://hangtiancheng.github.io/r/)
 
 ## Skill
 

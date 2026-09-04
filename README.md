@@ -1,1 +1,1 @@
-# [Past, Present and Future](https://hangtiancheng.github.io/r/)
+# <a href="https://hangtiancheng.github.io/r/" target="_blank" rel="noopener noreferrer">Past Present and Future</a>
